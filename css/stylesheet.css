@@ -1,0 +1,104 @@
+@charset "utf-8";
+h4{
+	font-family: 'Orelega One', cursive;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #301b3f;
+}
+h4:hover{
+  transform: skewX(20deg);
+	color: #b4a5a5;
+}
+h2{
+	font-family: 'Permanent Marker', cursive;
+	color: #151515;
+	padding: 20px;
+	align-content: center;
+}
+h1{
+	text-align: center;
+	padding: 10px;
+}
+.topnav {
+  background-color: #3c415c;
+  overflow: hidden;
+	text-align: center;
+	align-content: center;
+}
+
+.topnav a {
+  float: left;
+  color: #b4a5a5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+}
+
+.topnav a:hover {
+  background-color:#151515;
+}
+
+.topnav a.active {
+  background-color: #301b3f;
+  color: #b4a5a5;
+}
+footer{
+	text-align: center;
+	background-color: #3c415c;
+	font-size: 14pt;
+	color: #b4a5a5;
+}
+
+#container1{
+	background-image:url("../images/background1.png")
+}
+#container1:hover{
+	opacity: 0.7;
+	align-content: center;
+}
+#container2{
+	background-image: url("../images/background5.png");
+}
+.text{
+	background-color: #b4a5a5;
+	background-visibility:0.5;
+}
+#vision{
+	background-image: url("../images/background2.png")
+}
+#button1{
+	background-color:#301b3f;
+	color: beige;
+}
+#button1:hover{
+	background-color:#b4a5a5;
+	color:#301b3f;
+}
+#button2{
+	background-color:#3c415c;
+	color: beige;
+}
+#button2:hover{
+	background-color:#b4a5a5;
+	color:beige;
+}
+#button3{
+	background-color:#;
+	color: #;
+}
+#button3:hover{
+	background-color:#;
+	color:#;
+}
+#button4{
+	background-color:#;
+	color: #;
+}
+#button4:hover{
+	background-color:#;
+	color:#;
+}
+.jumbotron{
+	margin: 20px;
+}
