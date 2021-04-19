@@ -9,6 +9,9 @@ h4:hover{
   transform: skewX(20deg);
 	color: #b4a5a5;
 }
+h3{
+	padding: 10px;
+}
 h2{
 	font-family: 'Permanent Marker', cursive;
 	color: #151515;
@@ -17,7 +20,11 @@ h2{
 }
 h1{
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
+	font-family: 'Bangers', cursive;
+}
+.categories{
+	color: #b4a5a5;
 }
 .topnav {
   background-color: #3c415c;
@@ -25,7 +32,9 @@ h1{
 	text-align: center;
 	align-content: center;
 }
-
+#products{
+	color: #b4a5a5
+}
 .topnav a {
   float: left;
   color: #b4a5a5;
@@ -48,17 +57,27 @@ footer{
 	background-color: #3c415c;
 	font-size: 14pt;
 	color: #b4a5a5;
+	padding: 15px;
+	margin-top: 15px;
 }
-
 #container1{
-	background-image:url("../images/background1.png")
+	background-image:url("../images/background3.JPG");
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+
 }
-#container1:hover{
+h1:hover{
 	opacity: 0.7;
-	align-content: center;
+	transform: scale(1.5);
+		color: beige;
 }
 #container2{
 	background-image: url("../images/background5.png");
+}
+#container3{
+	background-image: url("../images/background3.JPG");
+	align-items: center;
 }
 .text{
 	background-color: #b4a5a5;
@@ -84,20 +103,20 @@ footer{
 	color:beige;
 }
 #button3{
-	background-color:#;
-	color: #;
+	background-color:#b4a5a5;
+	color:#3c415c;
 }
 #button3:hover{
-	background-color:#;
-	color:#;
+	background-color:#301b3f;
+	color:#b4a5a5;
 }
 #button4{
-	background-color:#;
-	color: #;
+	background-color:black;
+	color: beige;
 }
 #button4:hover{
-	background-color:#;
-	color:#;
+	background-color:beige;
+	color:black;
 }
 .jumbotron{
 	margin: 20px;
