@@ -20,8 +20,14 @@ h2{
 }
 h1{
 	text-align: center;
-	padding: 20px;
+	padding: 30px;
 	font-family: 'Bangers', cursive;
+	color: #b4a5a5;
+}
+h1:hover{
+	opacity: 0.7;
+	transform: scale(1.5);
+		color: beige;
 }
 .categories{
 	color: #b4a5a5;
@@ -45,12 +51,16 @@ h1{
 }
 
 .topnav a:hover {
-  background-color:#151515;
+  background-color:#301b3f;
+	color:#b4a5a5 
 }
-
 .topnav a.active {
   background-color: #301b3f;
   color: #b4a5a5;
+}
+.topnav a.active:hover {
+  background-color: #b4a5a5;
+  color:#301b3f ;
 }
 footer{
 	text-align: center;
@@ -64,13 +74,26 @@ footer{
 	background-image:url("../images/background3.JPG");
 	justify-content: center;
 	align-items: center;
-	margin-top: 15px;
-
+	padding:75px;
+	margin: 15px;
+	margin-left: 250px;
+	margin-right: 250px;
 }
-h1:hover{
-	opacity: 0.7;
+#blend{
+mix-blend-mode: lighten;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding-top: 50px;
+}
+#blend:hover{
+mix-blend-mode: lighten;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding-top: 50px;
+		opacity: 0.7;
 	transform: scale(1.5);
-		color: beige;
 }
 #container2{
 	background-image: url("../images/background5.png");
@@ -78,10 +101,13 @@ h1:hover{
 #container3{
 	background-image: url("../images/background3.JPG");
 	align-items: center;
+	
 }
 .text{
-	background-color: #b4a5a5;
+	background-color: beige;
 	background-visibility:0.5;
+	margin: 10px;
+	padding: 10px;
 }
 #vision{
 	background-image: url("../images/background2.png")
