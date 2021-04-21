@@ -45,11 +45,19 @@ h1:hover{
   float: left;
   color: #b4a5a5;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 30px;
   text-decoration: none;
   font-size: 17px; 
 }
-
+#Design{
+	display: flex;
+	align-content:center;
+}
+#container4{
+	display: flex;
+	padding: 15px; 
+	align-content: flex-start;
+}
 .topnav a:hover {
   background-color:#301b3f;
 	color:#b4a5a5 
