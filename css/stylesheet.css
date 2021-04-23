@@ -83,9 +83,9 @@ footer{
 	justify-content: center;
 	align-items: center;
 	padding:75px;
-	margin: 15px;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 #blend{
 mix-blend-mode: lighten;
