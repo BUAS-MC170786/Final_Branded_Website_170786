@@ -22,12 +22,12 @@ h1{
 	text-align: center;
 	padding: 30px;
 	font-family: 'Bangers', cursive;
-	color: #b4a5a5;
+	color: #151515;
 }
 h1:hover{
 	opacity: 0.7;
 	transform: scale(1.5);
-		color: beige;
+		color: #301b3f;
 }
 .categories{
 	color: #b4a5a5;
@@ -113,13 +113,9 @@ display: flex;
 	margin-right: 25px;
 }
 .container2{
-	background-image: url("../images/background5.png");
 	display: center;
 	justify-content: center;
 	padding:35px;
-	margin-top: 15px;
-	margin-left: 25px;
-	margin-right: 25px;
 }
 #container3{
 	background-image: url("../images/background3.JPG");
