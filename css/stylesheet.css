@@ -105,11 +105,25 @@ mix-blend-mode: lighten;
 }
 #container2{
 	background-image: url("../images/background5.png");
+		justify-content: center;
+display: flex;
+	padding:15px;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.container2{
+	background-image: url("../images/background5.png");
+	display: center;
+	justify-content: center;
+	padding:35px;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 #container3{
 	background-image: url("../images/background3.JPG");
 	align-items: center;
-	
 }
 .text{
 	background-color: beige;
